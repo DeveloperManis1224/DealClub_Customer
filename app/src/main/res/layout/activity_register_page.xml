@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/container_bg"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/round_card_container"
+        android:elevation="3sp"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:weightSum="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:text="Register"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/reg_name"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/edt_corners"
+            android:hint="FullName"/>
+        <EditText
+            android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edt_corners"
+            android:hint="Phone"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/reg_email"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/edt_corners"
+            android:hint="Email"/>
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/reg_dob"
+            android:maxLength="25"
+            android:singleLine="true"
+
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/edt_corners"
+            android:hint="DOB"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/reg_gender"
+            android:maxLength="25"
+            android:singleLine="true"
+
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/edt_corners"
+            android:hint="Gender"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/reg_password"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edt_corners"
+            android:hint="Password"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/button_reg"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="35dp"
+            android:elevation="2dp"
+            android:background="@drawable/btn_background"
+            android:text="Register"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"
+            android:text=" * All fields are Mandatory."
+            android:textSize="12sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#9f9f9f"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

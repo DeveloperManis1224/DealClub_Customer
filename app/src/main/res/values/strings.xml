@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Deal Club design 1</string>
+
+    <string-array name="examples">
+        <item>Loading.</item>
+        <item>Loading..</item>
+        <item>Loading...</item>
+    </string-array>
+    <string-array name="deals_label">
+        <item>Deals of the Day</item>
+        <item>Deals of the Day</item>
+    </string-array>
+
+    <string name="terms_and_conditions">
+        \t\t\t\t\t\ You must successfully download and install the Datally mobile application from the Google Play store to be eligible to earn a scratch card reward.\n
+You must successfully complete the onboarding process and setup and turn on the Data Saver feature in Datally to be eligible to earn a scratch card reward.\n
+You can earn a maximum of one (1) reward during the offer period. The offer period is from July 09, 2018 to August 09, 2018.\n
+Each scratch card earned will be worth up to Indian Rupees Fifty One (INR 51).\n
+Each Tez Customer can only use one set of Tez credentials, which includes but is not limited to a Google Account, phone number, and form of payment, to qualify for each offer. If you are a registered userData of Tez, the set of credentials provided in Datally to earn the scratch card reward needs to be the same credentials used to register for Tez. If you are not a registered userData of Tez, you will need to register for Tez with the same set of credentials provided in Datally to earn and access the scratch card reward.\n
+You can earn up to a total of Indian Rupees Nine Thousand (INR 9,000) per financial year (April 1 to March 31) across all Tez offers.\n
+If you earn a scratch card reward , the amount is deposited into your bank account. As such, you must have a UPI-enabled savings account attached to your Tez account to receive payment from Google.Be sure to link your UPI enabled savings account to your Tez account within thirty (30) days of claiming the reward, failing which the reward will be deemed to be forfeited.\n
+By accepting a scratch card reward, you agree that Google may use your name and image for advertising and promotional purposes, without additional consent from or compensation to you.\n
+Employees, interns, contractors, and office-holders, as well as their immediate families (parents, siblings, children, spouses, and life partners of each, regardless of where they live), of Google LLC, its affiliates and subsidiaries, and any representatives or agencies of Google or other persons professionally connected with the offer are not eligible to participate.\n
+    </string>
+    <string name="shop_phone">Shop Phone</string>
+    <string name="shoptiming">ShopTiming</string>
+    <string name="shop_offers">Shop Offers</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="shopname">ShopName</string>
+
+    <string name="valid_fail">Invalid</string>
+</resources>
